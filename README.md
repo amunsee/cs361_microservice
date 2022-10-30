@@ -1,5 +1,7 @@
 # cs361_microservice
-microservice for partners project
+microservice for partners project - email confirmation microservice for a store application
+
+*Note use a throw away email for sending, it has a chance of getting flagged for spam and disabled/banned*
 
 Communication contract:
 1. How to request data from the microservice: First establish a socket connection with the microservice. The connection is a Localhost connection on port 1237. Next send data to the microservice, the data is sent through the socket connection as a string encoded into bytes. The microservice will handle the data sent to it, and reply back across the socket connection with a string encoded into bytes.
